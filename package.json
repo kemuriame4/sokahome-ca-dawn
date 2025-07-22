@@ -1,0 +1,19 @@
+{
+	"name": "sokahome-ca-dawn",
+	"version": "1.0.5",
+	"description": "Sub dawn theme project for sokahome-ca",
+	"scripts": {
+		"shopify": "shopify theme dev --store pwfc48-t1.myshopify.com --port 7878",
+		"vite": "vite build",
+		"watch": "vite build --watch"
+	},
+	"author": "kemuriame4@gmail.com",
+	"license": "MIT",
+	"devDependencies": {
+		"@shopify/cli": "^3.81.2",
+		"tailwindcss": "^4.1.10",
+        "@tailwindcss/postcss": "^4.1.11",
+        "@tailwindcss/vite": "^4.1.11",
+        "vite": "^7.0.5"
+	}
+}
